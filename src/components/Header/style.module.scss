@@ -1,0 +1,17 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: rgba(59, 118, 198, 1);
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.paragraph {
+  color: white;
+  padding: 20px;
+  margin-left: 3rem;
+}
+

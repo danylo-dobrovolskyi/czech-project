@@ -1,0 +1,28 @@
+.block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  width: 90%;
+  max-width: 650px;
+  margin: 0 auto;
+  color: white;
+  background-color: rgba(59, 118, 198, 1);
+  border-radius: 20px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.paragraph {
+  text-align: left;
+  max-width: 80%;
+  margin: 0 auto;
+}

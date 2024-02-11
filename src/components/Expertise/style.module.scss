@@ -1,0 +1,31 @@
+.expertiseContainer {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-bottom: 40px;
+  color: rgba(6, 13, 24, 1);
+}
+
+.expertiseItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 200px;
+  padding: 10px;
+}
+
+.title {
+  color: #333;
+  margin: 10px 0;
+}
+
+.paragraph {
+  text-align: left;
+}
+
+@media (max-width: 768px) {
+  .expertiseContainer {
+    flex-direction: column;
+    align-items: center;
+  }
+}
